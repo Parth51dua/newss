@@ -1,0 +1,145 @@
+.imghome {
+position:relative;
+  z-index: 1001 !important;
+}
+.zsbigger-size-heading div
+{
+    margin:0px !important;
+    width:unset !important;
+}
+.imghome1 {
+position:absolute;
+}
+
+.auslider{
+    max-height: 10px !important;
+}
+.imghiw {
+position:relative;
+z-index: 100 !important;
+}
+
+.imghhiw1 {
+position:absolute;
+}
+
+.theme-menu-content{
+
+    color: #000000;
+ font-family: 'Manrope',sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+
+
+}
+
+
+
+
+
+.homeslider{
+
+z-index: 100 !important;
+}
+
+
+
+.cta-container {
+  position: fixed;
+  top: 50%; /* Center the button vertically */
+  right: 0; /* Stick to the right side of the screen */
+   
+  transform: translateY(-50%) rotate(-90deg); /* Rotate the button counter-clockwise by 90 degrees */
+  z-index: 999; /* Set a high z-index to ensure the button stays on top of other content */
+}
+
+/* Style the button as per your design */
+.cta-button {
+  background-color: #FF3E49;
+  color: #fff;
+  font-family: 'Manrope',sans-serif;
+  padding: 10px 12px;
+  font-size: 14px;
+    font-weight:700;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+   margin-left: 12px !important; 
+    letter-spacing:1.4px;
+    margin-right: -95px !important;
+  text-decoration:none !important;
+}
+
+a {
+    text-decoration:none !important;
+}
+/* Add hover effect to the button if desired */
+.cta-button:hover {
+  background-color: #dd2b35;
+}
+
+.colbox{
+min-height: 350px !important;
+}
+
+.ftrlink{
+    color: #fff;
+    text-decoration: none;
+}
+
+.theme-menu-content {
+    color: #000000;
+    font-family: 'Manrope',sans-serif;
+    font-size: 15px;
+    font-weight: 900 !important;
+}
+
+
+.theme-navigation-and-icons .theme-menu-area .theme-menu ul li.theme-menu-selected>a {
+    background: #f4433600 !important;
+    color: #FFFFFF;
+}
+
+.theme-navigation-and-icons .theme-menu-area .theme-menu ul li:hover>a {
+    background: #f4433600 !important;
+    color: #FFFFFF;
+}
+
+.theme-blog-container-column .theme-blog-container .theme-blog-part.theme-blog-post-header-area .theme-blog-heading a {
+    color: #02172D;
+    font-weight: 700 !IMPORTANT;
+    font-size: 40px !important;
+}
+
+.theme-single-post .theme-blog-container .theme-blog-part.theme-single-blog-header .theme-blog-heading {
+    margin-block-end: 10px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.image-container {
+            max-width: 180px; /* Set max width of container */
+            margin: 0 auto; /* Center the container */
+            display: flex;
+            justify-content: center; /* Center the images within the container */
+        }
+
+        .image-container a {
+            text-decoration: none; /* Remove underline from links */
+            margin-right: 0px; /* Add 10px margin between images */
+        }
+
+        .image-container img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .middle-image {
+            margin: 0 10px 10px 10px; /* Add 10px space on left and right */
+        }
+@media only screen and (max-width: 650px){
+  .theme-header.zpcontainer {
+    width: 350px !important;
+      z-index: 1001 !important;
+    }
+}
